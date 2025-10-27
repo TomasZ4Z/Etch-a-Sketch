@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+#screen {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+#screen > div {
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+#screen > div > * {
+  flex: 1;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 800px;
+  background-color: blue;
+}
+
+.square{
+  border: 1px solid black;
+}
